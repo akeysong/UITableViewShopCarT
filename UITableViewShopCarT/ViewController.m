@@ -61,7 +61,7 @@
 }
 - (IBAction)buyBtnClick {
     for (CUWine *wine in self.shoppingCarArray) {
-        NSLog(@"购买了%d瓶 %@",wine.count,wine.name);
+        NSLog(@"购买了%d瓶 (%@)",wine.count,wine.name);
     }
     
 }
